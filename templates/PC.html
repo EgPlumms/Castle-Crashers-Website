@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <div class="grid">
+    <head>
+        <link rel="stylesheet" href="{{url_for('static', filename='main.css')}}">
+        <title>Playable Characters</title>
+    </head>
+    <body>
+        <h1 id="PC_Heading">Playable Characters</h1>
+
+        <a id="Logo" href="/">
+            <img id="Logo" src="{{url_for('static', filename='Logo.png')}}">
+        </a>
+        
+        <a id="PK" href="/PK">
+        <img id="PK" src="{{url_for('static', filename='Pink_knight.webp')}}">
+        </a>
+
+        <a id="GreyK" href="/GreyK">
+        <img id="GreyK" src="{{url_for('static', filename='Grey_Knight.webp')}}">
+        </a>   
+
+        <a href="/BS">
+        <img id="BS" src="{{url_for('static', filename='Blacksmith.webp')}}">
+        </a>
+        
+        <a id="Hatty" href="/Hatty">
+        <img id="Hatty" src="{{url_for('static', filename='Hatty.webp')}}">
+        </a>
+
+    </body>
+    </div>
+</html>
